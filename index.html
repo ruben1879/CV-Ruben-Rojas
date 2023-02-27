@@ -22,8 +22,12 @@
       </nav>
     </section>
   </header>
-  <h1>Curriculum Vitae</h1>
-  <hr>
+  <section id="inicio" class="home container">
+    <div class="bienvenida">
+      <p>Bienvenidos a Mí</p>
+      <h1>Curriculum Vitae</h1>
+    </div>
+  </section>
   <section id="datos-personales" class="data">
     <div class="container">
       <h2 class="data-title"><u>Datos Personales</u></h2>
@@ -40,7 +44,11 @@
       <p><b>Email:</b>ruben.rojas79@gmail.com</p>
     </article>
     <article>
-      <img src="img/S2020013.JPG" alt="foto de perfil">
+      <p style="text-align: center;"><b>Foto de Perfil</b></p>
+      <img src="img/S2020013.JPG" alt="foto de perfil" id="imagen">
+      <br>
+      <input type="button" id="mostrar-imagen" value="Mostrar foto">
+      <input type="button" id="ocultar-imagen" value="Ocultar foto">
     </article>
     <a class="button" href="index.html"> Volver al Inicio ☝️</a>
     <br><br>
@@ -203,5 +211,6 @@
   <footer class="footer">
     <small>Sitio diseñado por Ruben Rojas</small>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
