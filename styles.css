@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: wheat;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+h3 {
+  margin: 0;
+  font-size: 18px;
+}
+h4 {
+  margin: 0;
+  font-size: 16px;
+}
+h5 {
+  margin: 0;
+  font-size: 12px;
+}
+h6 {
+  margin: 0;
+  font-size: 10px;
+}
+
+table {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/********** Header **************/
+.header {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+  background-color: darkblue;
+}
+.header .container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 150px 1fr;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  text-align: center;
+}
+.menu {
+  padding-top: 5px;
+  width: 100%;
+  pointer-events: auto;
+  transition: opacity 0.5s ease;
+  background-color: darkblue;
+  text-align: center;
+}
+.menu a {
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.menu a:hover {
+  color: orange;
+  background-color: blueviolet;
+}
+a:hover {
+  opacity: 0.75;
+}
+
+body {
+  margin: 0;
+  color: black;
+}
+
+
+/***** Datos Personales*********/
+
+.data .container {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  justify-content: space-between;
+  align-content: center;
+  background-color: gainsboro;
+}
+.data article {
+  margin-left: 40px;
+}
+.data-title {
+  grid-column: span 2;
+}
+.data img {
+  margin-top: 20px;
+  border: 4px solid darkblue;
+  padding: 4px;
+}
+.button {
+  border-radius: 4px;
+  background-color: darkcyan;
+  width: 140px;
+  margin-left: 40px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/******** Estudios Cursados **********/
+.studen {
+  background-color: aquamarine;
+}
+.studen ul {
+  margin-left: 20px;
+}
+
+/******** Cursos ****************/
+.cursos {
+  background-color: violet;
+}
+.cursos table {
+  width: 1080px;
+}
+table, th, td {
+  margin-left: 40px;
+  border: 1px solid black;
+
+}
+table th {
+  color: white;
+  background-color: rgb(9, 137, 250);
+}
+table td {
+  background-color: aliceblue;
+}
+
+/****** Trayectoria Laboral *******/
+.trayectoria-laboral {
+  background-color: rgb(240, 179, 10);
+}
+.trayectoria-laboral table {
+  width: 1080px;
+  text-align: center;
+}
+
+/******* Footer *********/
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 64px;
+  padding-top: 10px;
+  text-align: center;
+}
