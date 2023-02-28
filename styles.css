@@ -51,6 +51,7 @@ p {
 }
 
 .container {
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
@@ -116,9 +117,10 @@ a:hover {
 }
 
 .home-title {
+padding-block-start: 25%;
 text-shadow: #474747 3px 5px 2px;
 color: #88fa06;
-  text-align: center;
+text-align: center;
 }
 
 /***** Datos Personales*********/
